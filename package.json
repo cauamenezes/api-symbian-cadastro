@@ -1,0 +1,19 @@
+{
+  "name": "api-symbian-cadastro",
+  "version": "1.0.0",
+  "description": "API para cadastro de clientes em um aplicativo Android",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "Cauã Menezes",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "json-parser": "^3.1.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.16",
+    "sequelize": "^6.20.1"
+  }
+}
